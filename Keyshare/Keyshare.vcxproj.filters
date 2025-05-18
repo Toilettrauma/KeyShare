@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Base">
+      <UniqueIdentifier>{d18a87a1-6854-4272-a77c-595fc9d96bfc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network">
+      <UniqueIdentifier>{aa76dc09-7b2d-4014-8021-32dff29fab1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Streams">
+      <UniqueIdentifier>{1b72e4ff-b2c9-4a58-adb8-96a5923d0e3b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Keyshare.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Logger.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyExchanger.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyExchangerMessage.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyExchangerTypes.hpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="NetworkStreams.cpp">
+      <Filter>Network\Streams</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyExchangerPreferences.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyEventHandler.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Logger.hpp">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyExchanger.hpp">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyExchangerMessage.hpp">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkStreams.hpp">
+      <Filter>Network\Streams</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyExchangerPreferences.hpp">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyEventHandler.hpp" />
+  </ItemGroup>
+</Project>
